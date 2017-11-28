@@ -1,3 +1,4 @@
+(function(){
 const ruler = document.querySelector('#ruler');
 const total = document.querySelector('#sum');
 
@@ -148,3 +149,4 @@ function randomInt(min, max) {
     rand = Math.floor(rand);
     return rand;
 }
+})();     
